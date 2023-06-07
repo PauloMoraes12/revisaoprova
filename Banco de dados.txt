@@ -1,0 +1,56 @@
+Banco de dados 
+    É uma coleção organizada de informações estruturadas, armazenadas e acessadas eletronicamente. Ele é projetado
+para permitir o armazenamento eficiente, recuperação, modificação e exclusão de dados.
+    Os bancos de dados são amplamente utilizados em diversas areas, como empresas, instituições governamentais, 
+organizações de saude, educação e muitos outros setores. Eles desempenham um papel fundamental no armazenamento e 
+gerenciamento de grandes quantidades de dados, permitindo que as informações sejam recuperadas e utilizadas de 
+maneira eficiente.
+    Existem vários tipos de bancos de dados, incluindo:
+- bancos de dados relacionais
+    É um tipo comum de banco de dados que organiza os dados em tabelas com linha e colunas. Ele usa chaves primárias e 
+    chaves estrangeiras para estabelecer relacionamentos entre as tabelas e garantir a integridade dos dados.
+    Ex.: MySQL; Oracle; SQL Server e PostgreSQL.
+- bancos de dados orientados a objetos
+    Permite armazenar dados complexos, como objetos, classes e heranças, além de relacionamentos. Esses bancos de dados
+    são amplamente utilizados em aplicativos que exigem um armazenamento mais flexivel e abrangente de dados, como em 
+    desenvolvimento de software orientado a objetos. 
+- bancos de dados de graficos
+    São projetados para armazenar e consultar dados altamente conectados, como redes sociais ou redes de relacionamento.
+    Eles usam estruturas de grafo pra representar e armazenar dados, permitindo consultas eficientes em relacionamentos 
+    complexos. 
+- bancos de dados de documentos
+    São adequados para armazenar e consultar documentos semiestruturados ou não estruturados, como JSON ou XML. Eles 
+    permitem a flexibilidade na estrutura dos dados e são amplamentes usados em aplicativos web ou móveis.
+
+
+    Cada tipo tem suas proprias caracteristicas e é adequado para diferentes necessidades e casos de uso.
+
+O que é modelagem conceitual
+    É uma etapa do processo de projeto de banco de dados em que os requisitos e conceitos do mundo real são representados
+    de forma abstrata. É uma tecnica usada para capturar e descrever a estrutura e o significado dos dados de uma 
+    organização, independentemente de como eles serão implementados em um banco de dados especifico.
+
+    A modelagem conceitual envolve a criação de um modelo conceitual, que é uma representação grafica ou textual dos 
+    principais objetos, entidades e relacionamentos no domínio do problema. O objetivo é capturar as principais 
+    entidades (objetos) envolvidas, suas propriedades (atributos) e os relacionamento entre elas.
+
+    Umas das abordagens mais comuns para a modelagem conceitual é o uso de diagramas de entidade-relacionamento(ER). 
+    Esses diagramas consistem em 
+    - Entidades, que são objetos ou conceitos distintos no domínio;
+    - Atributos, que descrevem as caracteristicas das entidades;
+    - Relacionamento, que define como as entidades estão conectadas umas às outras.
+
+----------------------------------------------------------------------------------------------------------------------------
+
+O que é modelagem lógica e física? 
+    São etapas subsequentes ao processo de modelagem conceitual no projeto de banco de dados. Elas envolvem a transformação
+    do modelo conceitual em modelos mais detalhados, que descrevem como os dados serão organizados e armazenados no sistema
+    de gerenciamento de banco de dados (SGBD) especifico.
+
+    A modelagem lógica é a etapa em que o modelo conceitual é refinado e convertido em um modelo mais detalhado, usando uma
+    linguagem de modelagem de dados, como o diagrama de entidade-relacionamento estendido (ER-E) ou o modelo relacional. 
+    Nessa etapa, o foco está em traduzir as entidades, atributos e relacionamentos do modelo conceitual em entruturas 
+    lógicas de dados.
+
+    
+

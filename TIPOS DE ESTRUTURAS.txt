@@ -1,0 +1,51 @@
+Filas / Queue
+
+- Fila de banco;
+- O elemento que entra primeiro é o primeiro a sair;
+- Sempre que um elemento é adicionado a fila ele vai para o final dela;
+- Sempre que removemos um elemento é o primeiro que entrou.
+
+FIFO - Firsh in / Firsh out
+
+enqueue() // Adiciona elemento na fila
+dequeue() // Remove elemento na fila
+clear() // Limpa a fila
+
+// Estrutura da fila
+fila[10] - [0][1][2][3][4][5][6][7][8][9]
+head -> //cabeça da fila, indica quem é o primeiro elemento da fila
+tail -> //calda, indica quantos elementos tem na fila
+
+Aplicação: Em qualquer situação onde a gente tenha que organizar o atendimento de elementos. 
+
+----------------------------------------------------------------------------------------------------------------------------------------
+Pilhas / Stack
+
+FILO - Firsh in / Last out
+LIFO - Last in / Firsh out
+
+- OS dados sempre sao inseridos no topo, ou seja, sempre que um novo elemento é inserido ele ocupa o topo da pilha.
+
+- Só temos acesso ao elemento que esta no topo.
+
+- O processo de inserir um elemento é chamado de push
+- O processo de remover um elemento é chamado de pop
+
+----------------------------------------------------------------------------------------------------------------------------------------
+lista
+
+----------------------------------------------------------------------------------------------------------------------------------------
+Arvore Binária - Binary Tree
+
+- Sao estruturas de dados caracterizadas por: 
+
+- ou nao tem elemento algum (arvore vazia);
+- ou tem um elemento distinto, denominado raiz, com dois apontamentos para duas estruturas diferentes, denominadas sub-arvores esquerda 
+e sub-arvore direita.
+
+OBS.: A raiz da arvore começa de cima pra baixo, a raiz é o primeiro elemento logo em seguida vem as arestas e a ponta de
+cada aresta é chamada folha.
+
+-- Conceitos de arvores binaria
+- Arvore cheia é onde é tem todos os dois netos
+- Arvore  
